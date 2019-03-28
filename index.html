@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="lessons.css">
+        
+
+        <title>FlexBox</title>
+    </head>
+    <body>
+        <header>
+            <h1>Intro to <span>FlexBox</span></h1>
+            <div id='intro-wrapper'>
+                <div id='intro'>
+                    <div class='line'>
+                        <div class='red red-1'></div>
+                        <div class='red red-2'></div>
+                    </div>
+                    <div class='green'></div>
+                    <div class='line'>
+                        <div class='yellow'></div>
+                        <div class='blue blue-1'></div>
+                        <div class='blue-flex'>
+                            <div class='blue blue-bar'></div>
+                            <div class='blue blue-bar'></div>
+                            <div class='blue blue-bar'></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class='flex-center'>
+            <div id='nav-btns'>
+                <button class='navigation-btn previous'><i class="fas fa-chevron-circle-left"></i></button>
+                <h3><span id='lesson-title'></span></h3>
+                <button class='navigation-btn next'><i class="fas fa-chevron-circle-right"></i></button>
+            </div>
+        </nav>
+        
+        <main>
+            
+<!-- Lesson 0 - Intro -->
+<section id='lesson-0' class='active'>
+    <div>
+        <div>
+            <p class='cool-transition'>Flexbox is a great tool for laying out your webpage</p>
+            <p class='cool-transition'>Responsive</p>
+            <p class='cool-transition'>Widely supported</p>
+            <ul>
+                <li class='cool-transition'>- with over 95% browser support</li>
+                <li class='cool-transition'>- back to ie 10 &amp; 11</li>
+            </ul>
+        </div>
+        <div>
+            <img src='assets/stewie-flex.png'>
+        </div>
+    </div>
+</section>
+
+<!-- Lesson 1 - Diplay: Flex-->  
+
+<section id='lesson-1'>
+    <div class='flex-container'>
+        <div class='lonely-flex-child'>
+            <p><code>&lt;div&gt;</code></p>
+        </div>
+    </div>
+</section>
+
+<!-- Lesson 2 -->  
+
+<section id='lesson-2'>
+    <div class='flex-container'>
+        <div class='child-1'>
+            <p><code>&lt;div&gt;</code></p>
+        </div>
+        <div class='child-2'>
+            <p><code>&lt;div&gt;</code></p>
+        </div>
+        <div class='child-3'>
+            <p><code>&lt;div&gt;</code></p>
+        </div>
+    </div>
+</section>
+
+<!-- Lesson 3 -->  
+
+<section id='lesson-3'>
+    <div class='flex-container'>
+        <div class='child-1'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac turpis egestas integer.</p>
+        </div>
+        <div class='child-2'>
+            <p>Viverra accumsan in nisl nisi scelerisque eu ultrices. Ornare massa eget egestas purus. Hendrerit gravida rutrum quisque non tellus orci ac. Vitae tempus quam pellentesque nec nam aliquam. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor. </p>
+        </div>
+        <div class='child-3'>
+            <p>Vitae sapien pellentesque habitant morbi tristique senectus. </p>
+        </div>
+    </div>
+</section>
+
+<!-- Lesson 4 - Navbar Example -->  
+
+<section id='lesson-4'>
+    <div id='navbar-exp-1'>
+        <img id='logo' src="assets/jg-logo.jpg">
+        <i id='hamburger' class="fas fa-bars"></i>
+    </div>
+
+    <div id='navbar-exp-2'>
+        <img id='logo' src="assets/jg-logo.jpg">
+        <div id='navbar-exp-links'>
+            <a>ABOUT US</a>
+            <a>OUR TEAM</a>
+            <a>CONTACT</a>
+        </div>
+    </div>
+</section>
+
+<!-- Lesson 5 - Controlling Width -->  
+
+<section id='lesson-5'>
+    <div class='flex-container'>
+        <div class='child-1'>
+            <p><code>&lt;div&gt;</code></p>
+        </div>
+        <div class='child-2'>
+            <p><code>&lt;div&gt;</code></p>
+        </div>
+        <div class='child-3'>
+            <p><code>&lt;div&gt;</code></p>
+        </div>
+    </div>
+</section>
+
+<!-- Lesson 6 - Content Wrap Exp -->  
+
+<section id='lesson-6'>
+    <div class='flex-container'>
+        <div>
+            <img id='hot-flex-img' src="assets/hot-meme.jpeg">
+        </div>
+        <div id='hot-flex-content'>
+            <h1>Why is Flexbox so Hot?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac turpis egestas integer.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Lesson 7 - Flex Direction: Column -->
+
+<section id='lesson-7'>
+    <div class='flex-container'>
+        <div class='card'>
+            <h2>Card 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a><em>Read More</em></a>
+        </div>
+        <div class='card'>
+            <h2>Card 2</h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat qui officia deserunt mollit anim.</p>
+            <a><em>Read More</em></a>
+        </div>
+        <div class='card'>
+            <h2>Card 3</h2>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+            <a><em>Read More</em></a>
+        </div>
+    </div>
+</section>
+
+<!-- Lesson 8 - Meme Exp -->  
+
+<section id='lesson-8'>
+    <div class='flex-container'>
+        <div id='column-meme'>
+            <h1>SO YOU'RE TELLING ME</h1>
+            <h1>YOU MADE THIS MEME WITH FLEXBOX</h1>
+        </div>
+    </div>
+</section>
+
+<!-- Lesson 9 - Re-ordering -->  
+
+<section id='lesson-9'>
+    <div class='flex-container'>
+        <div class='child-1'>
+            <p>1</p>
+        </div>
+        <div class='child-2'>
+            <p>2</p>
+        </div>
+        <div class='child-3'>
+            <p>3</p>
+        </div>
+    </div>
+</section>     
+            
+<!-- Lesson 10 - Business Pitch -->  
+
+<section id='lesson-10'>
+    <div class='flex-container'>
+        <h1>PRESTIGE WORLD<span id='wide'>WIDE</span></h1>
+        <img src='assets/mowercycle.jpg'>
+        <h1>Investors??  Posibly <span id='you'>YOU!!</span></h1>
+    </div>
+</section>
+       
+            
+        </main>
+        
+        <script src="navigation.js"></script>
+        <script src='cool-transition.js'></script>
+    </body>
+</html>

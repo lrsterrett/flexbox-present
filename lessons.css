@@ -1,0 +1,247 @@
+:root {
+    --purple: rgb(58,17,95);
+    --red: rgb(255,73,69);
+    --blue: rgb(68,124,172);
+    --yellow: rgb(220,220, 0);
+    --green: rgb(62,156,64);
+}
+
+.flex-container {
+    text-align: center;
+    color: white;
+}
+
+/* Lesson 0 - Intro */
+
+#lesson-0 {
+    background: var(--purple);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lesson-0 > div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#lesson-0 img {
+    width: 300px;
+}
+
+/* Lesson 1 - Display: Flex */
+
+#lesson-1 .flex-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.lonely-flex-child {
+    background: var(--blue);
+    padding: 50px 200px;
+/*    margin: 0 auto;*/
+}
+
+/* Lesson 2 - Justifying Content */
+
+#lesson-2 .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lesson-2 [class^='child'] {
+    padding: 50px;
+    margin: 0 25px;
+}
+
+.child-1 {
+    background: var(--green);
+}
+
+.child-2 {
+    background: var(--blue);
+}
+
+.child-3 {
+    background: var(--red);
+}
+
+/* Lesson 3 - Aligning Items */
+
+#lesson-3 .flex-container {
+    display: flex;
+}
+
+#lesson-3 [class^='child'] {
+    padding: 10px;
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+}
+
+/* Lesson 4 - Navbar Example */
+
+#lesson-4 {
+    background: #ddd;
+}
+
+#navbar-exp-1,
+#navbar-exp-2,
+#navbar-exp-3 {
+    background: white;
+    border-bottom: 3px solid dimgray;
+    border-top: 3px solid dimgray;
+    margin: 50px 0 100px;
+    color: dimgray;
+}
+
+#hamburger {
+    font-size: 3em;
+}
+
+#navbar-exp-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+#navbar-exp-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+
+/* Lesson 5 - Controlling Width*/
+
+
+#lesson-5 .flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#lesson-5 .child-1 {
+    flex-grow: 1
+}
+
+#lesson-5 .child-2 {
+    flex-grow: 9 ;
+}
+
+#lesson-5 .child-3 {
+    flex-grow: 1;
+}
+
+/* Lesson 6 - Content Wrap Exp*/
+
+#lesson-6 p,
+#lesson-6 h1 {
+    color: var(--purple);
+}
+
+#lesson-6 .flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+}
+
+#hot-flex-img {
+    max-width: 100%;
+}
+
+#hot-flex-content {
+    flex: 500px;
+}
+
+/* Lesson 7 - Flex Direction: Column */
+
+#lesson-7 p {
+    font-size: 22px;
+    margin: 20px;
+}
+
+#lesson-7 a {
+    font-size: 20px;
+}
+
+#lesson-7 {
+    display: flex;
+    align-items: flex-start;
+    overflow-y: scroll;
+}
+
+#lesson-7 .flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#lesson-7 .card {
+    background: var(--purple);
+    flex: 300px 0 1;
+    padding: 25px 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/** Lesson 8 - Meme Example */
+
+#lesson-8 .flex-container {
+    display: flex;
+    justify-content: center;
+    background: url('assets/skeptical-kid.jpg') no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#column-meme {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Lesson 9 - Re-ordering */
+
+#lesson-9 .flex-container {
+    display: flex;
+}
+
+#lesson-9 [class^='child'] {
+    padding: 50px 100px;
+}
+
+#lesson-9 .child-2 {
+    order: 1;
+}
+
+/* Lesson 10 - Mowercycle */
+
+#lesson-10 .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 25px;
+}
+
+#lesson-10 h1 {
+    color: var(--purple);
+}
+
+#wide {
+    text-shadow: 50px 30px gray,
+                100px 60px lightgray;
+}
